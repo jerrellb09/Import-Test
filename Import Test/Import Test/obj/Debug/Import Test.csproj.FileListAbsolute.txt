@@ -1,0 +1,27 @@
+c:\users\jsu\documents\visual studio 2015\Projects\Import Test\Import Test\bin\Debug\Import Test.exe.config
+c:\users\jsu\documents\visual studio 2015\Projects\Import Test\Import Test\obj\Debug\Import_Test.Form1.resources
+c:\users\jsu\documents\visual studio 2015\Projects\Import Test\Import Test\obj\Debug\Import_Test.Properties.Resources.resources
+c:\users\jsu\documents\visual studio 2015\Projects\Import Test\Import Test\obj\Debug\Import Test.csproj.GenerateResource.Cache
+c:\users\jsu\documents\visual studio 2015\Projects\Import Test\Import Test\bin\Debug\Import Test.exe
+c:\users\jsu\documents\visual studio 2015\Projects\Import Test\Import Test\bin\Debug\Import Test.pdb
+c:\users\jsu\documents\visual studio 2015\Projects\Import Test\Import Test\obj\Debug\Import Test.exe
+c:\users\jsu\documents\visual studio 2015\Projects\Import Test\Import Test\obj\Debug\Import Test.pdb
+C:\Users\jsu\documents\visual studio 2015\Projects\Import Test\Import Test\bin\Debug\CsvHelper.dll
+C:\Users\jsu\documents\visual studio 2015\Projects\Import Test\Import Test\bin\Debug\CsvHelper.pdb
+C:\Users\jsu\documents\visual studio 2015\Projects\Import Test\Import Test\bin\Debug\CsvHelper.xml
+F:\Import Test\Import Test\bin\Debug\Import Test.exe.config
+F:\Import Test\Import Test\obj\Debug\Import Test.exe
+F:\Import Test\Import Test\obj\Debug\Import Test.pdb
+F:\Import Test\Import Test\bin\Debug\Import Test.exe
+F:\Import Test\Import Test\bin\Debug\Import Test.pdb
+F:\Import Test\Import Test\bin\Debug\CsvHelper.dll
+F:\Import Test\Import Test\bin\Debug\CsvHelper.pdb
+F:\Import Test\Import Test\bin\Debug\CsvHelper.xml
+F:\Import Test\Import Test\obj\Debug\Import Test.csprojResolveAssemblyReference.cache
+F:\Import Test\Import Test\obj\Debug\Import_Test.Form1.resources
+F:\Import Test\Import Test\obj\Debug\Import_Test.Properties.Resources.resources
+F:\Import Test\Import Test\obj\Debug\Import Test.csproj.GenerateResource.Cache
+C:\Users\jsu\Documents\Visual Studio 2015\Projects\Import Test\Import Test\obj\Debug\Import Test.csprojResolveAssemblyReference.cache
+C:\Users\jsu\Source\Repos\Import-Test\Import Test\Import Test\bin\Debug\Import Test.exe.config
+C:\Users\jsu\Source\Repos\Import-Test\Import Test\Import Test\obj\Debug\Import Test.exe
+C:\Users\jsu\Source\Repos\Import-Test\Import Test\Import Test\obj\Debug\Import Test.pdb
