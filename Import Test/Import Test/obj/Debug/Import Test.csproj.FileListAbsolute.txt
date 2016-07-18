@@ -25,3 +25,15 @@ C:\Users\jsu\Documents\Visual Studio 2015\Projects\Import Test\Import Test\obj\D
 C:\Users\jsu\Source\Repos\Import-Test\Import Test\Import Test\bin\Debug\Import Test.exe.config
 C:\Users\jsu\Source\Repos\Import-Test\Import Test\Import Test\obj\Debug\Import Test.exe
 C:\Users\jsu\Source\Repos\Import-Test\Import Test\Import Test\obj\Debug\Import Test.pdb
+C:\Users\Jerrell\Documents\GitHub\Import-Test\Import Test\Import Test\bin\Debug\Import Test.exe.config
+C:\Users\Jerrell\Documents\GitHub\Import-Test\Import Test\Import Test\obj\Debug\Import Test.exe
+C:\Users\Jerrell\Documents\GitHub\Import-Test\Import Test\Import Test\obj\Debug\Import Test.pdb
+C:\Users\Jerrell\Documents\GitHub\Import-Test\Import Test\Import Test\bin\Debug\Import Test.exe
+C:\Users\Jerrell\Documents\GitHub\Import-Test\Import Test\Import Test\bin\Debug\Import Test.pdb
+C:\Users\Jerrell\Documents\GitHub\Import-Test\Import Test\Import Test\bin\Debug\CsvHelper.dll
+C:\Users\Jerrell\Documents\GitHub\Import-Test\Import Test\Import Test\bin\Debug\CsvHelper.pdb
+C:\Users\Jerrell\Documents\GitHub\Import-Test\Import Test\Import Test\bin\Debug\CsvHelper.xml
+C:\Users\Jerrell\Documents\GitHub\Import-Test\Import Test\Import Test\obj\Debug\Import Test.csprojResolveAssemblyReference.cache
+C:\Users\Jerrell\Documents\GitHub\Import-Test\Import Test\Import Test\obj\Debug\Import_Test.Form1.resources
+C:\Users\Jerrell\Documents\GitHub\Import-Test\Import Test\Import Test\obj\Debug\Import_Test.Properties.Resources.resources
+C:\Users\Jerrell\Documents\GitHub\Import-Test\Import Test\Import Test\obj\Debug\Import Test.csproj.GenerateResource.Cache

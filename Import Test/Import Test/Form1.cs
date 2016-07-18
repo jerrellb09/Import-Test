@@ -25,9 +25,9 @@ namespace Import_Test
 
         public  DataTable dt;
 
-        public  DataTable gldTable; //Goldstar Table
-        public  DataTable calTable; //Calamp Table
-        public  DataTable skyTable; //SkyPatrol Table
+        public DataTable gldTable; //Goldstar Table
+        public DataTable calTable; //Calamp Table
+        public DataTable skyTable; //SkyPatrol Table
 
         string username = WindowsIdentity.GetCurrent().Name;
         string userName = Environment.UserName;
@@ -59,7 +59,8 @@ namespace Import_Test
         //Button to locate the Goldstar Locate History CSV
         private void btnGldLocateHist_Click(object sender, EventArgs e)
         {
-            DataTable dt = new DataTable();
+            
+            //DataTable dt = new DataTable();
             dataGridView3.DataSource = null;
             var csv = "";
 
@@ -83,60 +84,76 @@ namespace Import_Test
         //Button to locate the Calamp Locate History CSV
         private void btnCalampLocateHist_Click(object sender, EventArgs e)
         {
-            DataTable dt = new DataTable();
-            dataGridView3.DataSource= null;
-            var csv = "";
-
-            
-            OpenFileDialog dlg = new OpenFileDialog();
-            
-            if (dlg.ShowDialog() == DialogResult.OK)
+            if (dt.IsInitialized)
             {
-                string fileName;
-                fileName = dlg.FileName;
-                csv = fileName;
+                GetCalampLocateHist();
             }
+            else
+            {
+                dataGridView3.Columns.Clear();
+                GetCalampLocateHist();
 
-            calTable = CSVReader.ReadCSVFile(csv, true);
-            dataGridView3.DataSource = calTable.DefaultView;
-            dataGridView3.AutoGenerateColumns = false;
-
-            dt = calTable;
+            }
         }
 
-        private void btnSkyPatrolLocateHist_Click(object sender, EventArgs e)
+        public void GetCalampLocateHist()
         {
-            var csv = "";
-
-            FolderBrowserDialog fbd = new FolderBrowserDialog();
             
-            OpenFileDialog dlg = new OpenFileDialog();
-            fbd.SelectedPath = "\\\\files\\Production\\GpsStore\\SkyPatrol\\SkyPatrol history downloads";
-            //fbd.SelectedPath = "C:\\Users\\jerrell.nal\\Desktop";
-            //dlg.ShowDialog();
-            if (fbd.ShowDialog() == DialogResult.OK)
             {
-                string foldername;
-                foldername = fbd.SelectedPath;
-                
+                var csv = "";
+
+
+                OpenFileDialog dlg = new OpenFileDialog();
+
                 if (dlg.ShowDialog() == DialogResult.OK)
                 {
                     string fileName;
                     fileName = dlg.FileName;
                     csv = fileName;
                 }
+
+                calTable = CSVReader.ReadCSVFile(csv, true);
+                dataGridView3.DataSource = calTable.DefaultView;
+                dataGridView3.AutoGenerateColumns = true;
+
+                dt = calTable;
             }
-            
-
-            skyTable = CSVReader.ReadCSVFile(csv, true);
-            dataGridView3.DataSource = skyTable.DefaultView;
-            dataGridView3.AutoGenerateColumns = false;
-            
-
         }
+
+        private void btnSkyPatrolLocateHist_Click(object sender, EventArgs e)
+        {
+            
+                    var csv = "";
+
+                    FolderBrowserDialog fbd = new FolderBrowserDialog();
+
+                    OpenFileDialog dlg = new OpenFileDialog();
+                    fbd.SelectedPath = "\\\\files\\Production\\GpsStore\\SkyPatrol\\SkyPatrol history downloads";
+                    //fbd.SelectedPath = "C:\\Users\\jerrell.nal\\Desktop";
+                    //dlg.ShowDialog();
+                    if (fbd.ShowDialog() == DialogResult.OK)
+                    {
+                        string foldername;
+                        foldername = fbd.SelectedPath;
+
+                        if (dlg.ShowDialog() == DialogResult.OK)
+                        {
+                            string fileName;
+                            fileName = dlg.FileName;
+                            csv = fileName;
+                        }
+                    }
+
+
+                    skyTable = CSVReader.ReadCSVFile(csv, true);
+                    dataGridView3.DataSource = skyTable.DefaultView;
+                    dataGridView3.AutoGenerateColumns = false;
+                }      
 
         private void btnClearForm_Click(object sender, EventArgs e)
         {
+            
+
             //this.dt.Clear();
             //this.dataGridView3.DataSource = null;
             //this.dataGridView3.Rows.Clear();
@@ -186,6 +203,7 @@ namespace Import_Test
             //OperationsUtility.createGoldStarDataTable().Clear();
         }
 
+      
         //Button to Export the information in the Datagrid to a CSV
         //and saving it to your desktop
         private void btnExportCSV_Click(object sender, EventArgs e)

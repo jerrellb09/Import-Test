@@ -185,11 +185,7 @@ namespace Import_Test
                     if (col.ColumnName == "Speed")
                     {
                         dr[col] = dr[col].ToString().Replace("mph", "");
-                    }
-                    if (col.ColumnName == "Geo Address")
-                    {
-                        dr[col] = dr[col].ToString().Replace(" ", ",");
-                    }
+                    }                  
 
                     //if (col.ColumnName == "Group ID")
                     //{
